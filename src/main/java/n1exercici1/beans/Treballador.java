@@ -2,9 +2,9 @@ package n1exercici1.beans;
 
 public abstract class Treballador {
 
-	String nom;
-	String cognom;
-	int preuHora;
+	protected String nom;
+	protected String cognom;
+	protected int preuHora;
 	
 	
 	public Treballador(String nom, String cognom, int preuHora) {
